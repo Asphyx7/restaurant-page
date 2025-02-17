@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: grid;
+  background-image: url(../img/pngtree-seamless-repeat-pattern-with-flowers-and-leaves-scandinavian-childish-drawing-background-picture-image_1172101.jpg);
+  /* min-height: 100vh; */
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  line-height: 1.1;
+}
+
+.navigation-bar {
+  background-color: hsl(60, 56%, 91%);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-block-start: 0.5rem;
+  margin-block-end: 1rem;
+}
+
+button {
+  background-color: hsl(60, 56%, 91%);
+  color: black;
+  border: 1px solid black;
+  border-bottom: none;
+  cursor: pointer;
+  padding-inline: 1rem;
+  padding-block-start: 0.3rem;
+  padding-block-end: 0.5rem;
+  transition-property: color, background-color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
+
+button:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.active-button {
+  background-color: hsl(120, 88%, 42%);
+}
+
+.wrapper {
+  background-color: hsl(60, 56%, 91%);
+  width: 70%;
+  margin-inline: auto;
+  padding-block: 2rem;
+}
+
+.wrapper div + div {
+  margin-block-start: 2rem;
+}
+
+.restaurant-name {
+  width: 60%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-name > h1 {
+  text-align: center;
+}
+
+.testimonial {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.testimonial > h3 {
+  margin-top: 1rem;
+}
+
+.working-hours {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.working-hours > p {
+  text-align: center;
+  margin-block-start: 1rem;
+}
+
+.location {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.location > p {
+  text-align: center;
+  margin-block-start: 1rem;
+}
+
+.contact-us {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.contact-info {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.menu-title {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.beef-burger {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
+
+.chicken-burger {
+  width: 50%;
+  margin-inline: auto;
+  background-color: hsl(60, 57%, 40%);
+  padding: 1.5rem;
+}
